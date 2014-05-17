@@ -1,2 +1,2 @@
--e http://github.com/mgan59/python-pinboard.git@v1.1#egg=python-pinboard
+-e git+http://github.com/mgan59/python-pinboard.git@v1.1#egg=python-pinboard
 Jinja2

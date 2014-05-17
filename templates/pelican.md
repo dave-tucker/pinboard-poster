@@ -3,16 +3,16 @@ Date: {{ date }}
 Author: {{ author }}
 Category: {{ category }}
 Tags: {{ tags }}
-Slug: {{} slug }}
+Slug: {{ slug }}
 
-{ summary }
+{{ summary }}
 
-<!--more -->
-
+<!--more-->
 {% for p in posts %}
+## [{{ p.description }}]({{ p.href }})
 
-# {{ p.title }}
+> {{ p.extended }}
 
-{{ p.descripton }}
+*{{ p.tags|reject("autoblog_tag")|join(", ")}}*
 
-*{{ p.tags }}*
+{% endfor %}

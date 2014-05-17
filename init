@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "PINBOARD_API_TOKEN = 'foo'
+PINBOARD_TAG = 'blog'
+DAYS = 7
+POST_FILENAME_PREFIX = 'bookmarks-'
+POST_PATH = '../blog/content/notable/'
+POST_TITLE_PREFIX = 'My pinboard bookmarks for'
+POST_AUTHOR = 'Dave'
+POST_CATEGORY = 'Notable'
+POST_TAGS = 'pinboard, bookmarks, notable'
+POST_SUMMARY = 'Things of note that were discovered on the web this week.'" > config.py

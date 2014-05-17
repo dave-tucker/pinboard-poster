@@ -46,6 +46,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+src/
 
 # Installer logs
 pip-log.txt
@@ -69,4 +70,5 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
-
+# Ignore the config file
+config.py
